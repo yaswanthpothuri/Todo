@@ -1,0 +1,40 @@
+.toggle-switch{
+    background-color: whitesmoke;
+    width:15rem;
+    height:7rem;
+    border-radius: 15rem 15rem;
+
+}
+.switch{
+    height:5.5rem;
+    width:5.5rem;
+    border-radius:50%;
+    position: relative;
+    top:0.6rem; 
+    left:0.6rem;
+    border:3px solid white;
+    transition: transform 0.5s ease-in-out;
+}
+.Text{
+    position: absolute; 
+    top:2rem;
+    left:1.7rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.On{
+    background-color: #4caf50;
+    transform: translateX(8rem);
+}
+.Off{
+    background-color: #f44336;
+    transform: translateX(0rem);
+}
+.con{
+    height:99vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center ;
+    align-items: center;
+    justify-content: center;
+}

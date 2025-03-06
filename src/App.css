@@ -1,0 +1,35 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/*To use Tailwind we should use the above three commands */
+.grid{
+  display :grid;
+  gap:1rem;
+  grid-template-columns: repeat(3,1fr);
+}
+.but{
+  color: white;
+  width:8rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+.but:hover{
+  background-color: #1152ae;
+}
+
+h1{
+  text-align: center;
+}
+.con{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hit{
+  background-color: #4d924d;
+}
+.average{
+  background-color: #e6e65c;
+}
+.rating{
+  border-radius: 5rem;
+  padding: 0 1rem;
+}
