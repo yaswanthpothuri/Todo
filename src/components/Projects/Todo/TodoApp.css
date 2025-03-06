@@ -1,5 +1,5 @@
 body{
-background-color: black;
+    margin:0px;
 }
 .task-input{
     height:4rem;
@@ -24,17 +24,25 @@ background-color: black;
     display: flex;
     flex-direction:column;
     align-items: center;
+    min-height: 100vh;
+}
+.dark-background{
+    background-color: black;
+    color: white;
+}
+.light-background{
+    background-color: white;
+    color: black;
 }
 .Todo-heading{
     font-size:3rem ;
-    color: white;
+    display: flex;
 }
 .task{
     padding-left: 2rem;
     display:flex;
     justify-content: space-between;
     width:30rem;
-    background-color: white;
     border-radius: 5rem 5rem 5rem 5rem;
     height:4rem;
     align-items: center;

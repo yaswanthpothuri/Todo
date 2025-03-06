@@ -1,18 +1,18 @@
 .toggle-switch{
     background-color: whitesmoke;
-    width:15rem;
-    height:7rem;
+    width:5rem;
+    height:2rem;
     border-radius: 15rem 15rem;
-
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
 }
 .switch{
-    height:5.5rem;
-    width:5.5rem;
+    height:1.5rem;
+    width:1.5rem;
     border-radius:50%;
     position: relative;
-    top:0.6rem; 
+    top:0.25rem; 
     left:0.6rem;
-    border:3px solid white;
     transition: transform 0.5s ease-in-out;
 }
 .Text{
@@ -23,18 +23,10 @@
     color: white;
 }
 .On{
-    background-color: #4caf50;
-    transform: translateX(8rem);
+    background-color: black;
+    transform: translateX(2.4rem);
 }
 .Off{
-    background-color: #f44336;
+    background-color: white;
     transform: translateX(0rem);
-}
-.con{
-    height:99vh;
-    display: flex;
-    flex-direction: column;
-    justify-items: center ;
-    align-items: center;
-    justify-content: center;
 }

@@ -1,8 +1,8 @@
 import { IoMdCheckmarkCircle } from "react-icons/io";
 import { MdDeleteForever } from "react-icons/md";
-const TodoList=({index,handleDeleteTodo,handleCheck,task})=>{
+const TodoList=({index,handleDeleteTodo,handleCheck,task,isOn})=>{
     return(
-        <li key={index} className='task'>
+        <li key={index} className={`task ${isOn ?'light-background':'dark-background'}`}>
         <span style={{ textDecoration: task.check ? 'line-through' : 'none' }}>{task.value}</span>
         <div>
             <button style={{ backgroundColor: 'transparent', border: 'none', position: 'relative', right: "0rem" }} onClick={() => handleCheck(index)}>
@@ -13,6 +13,6 @@ const TodoList=({index,handleDeleteTodo,handleCheck,task})=>{
             </button>
         </div>
     </li>
-    )
+    )   
 }
 export default TodoList;
